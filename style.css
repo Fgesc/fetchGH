@@ -1,0 +1,102 @@
+body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto';
+}
+
+.wrapper {
+    width: 661px;
+    min-height: 763px;
+    box-sizing: border-box;
+    background-color: #C4C4C4;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 62px 84px 74px 84px;
+}
+
+.search-input {
+    width: 500px;
+    list-style: none;
+}
+
+.inputBox {
+    box-sizing: border-box;
+    width: 500px;
+    height: 61px;
+    font-size: 44px;
+    padding-left: 13px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.autocom-box__item {
+    box-sizing: border-box;
+    padding-left: 13px;
+    width: 500px;
+    height: 44px;
+    border: 2px solid #000000;
+    background-color: #E3E3E3;
+    border-top: 1px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding-top: 5px;
+}
+
+.autocom-box__item:hover {
+    background-color: #65CDF9;
+}
+
+.not-found {
+    margin: 0;
+}
+
+.repoList {
+    width: 503px;
+    list-style: none;
+    margin-top: 45px;
+}
+.repoList__item{
+    display: flex;
+    height: 101px;
+    background-color: #E27BEB;
+    border: 1px solid #000000;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 24px;
+    padding-left: 13px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dataRepo__item {
+    margin: 0;
+}
+
+.btn {
+    position: absolute;
+    margin-left: 427px;
+    margin-bottom: 34px;
+    margin-top: 31px;
+    width: 42px;
+    height: 38.5px;
+    background-color: #E27BEB;
+    border: 1px solid #E27BEB;
+}
+
+.btn-img1 {
+    position: absolute;
+    transform: rotate(180deg);
+    top:-2px;
+    left:-2px;
+}
+.btn-img2 {
+    position: absolute;
+    transform: rotate(95deg);
+    top:-2px;
+    left:-2px;
+}
+
